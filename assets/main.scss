@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  background-color: #ffffff;
+  list-style: initial;
+  margin: 0 0 0 0;
+}
+
+:root {
+  --background-image: url('/public/images/header_background.webp');
+  --default-background-color: #ECF7FD;
+}
